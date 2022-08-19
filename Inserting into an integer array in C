@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main()
-{int i, s,x,n;
-    printf("ENter s");
+{int i, s, x, n;
+    printf("Enter the size of the array: ");
     scanf("%d", &s);
     int a[s];
-    printf("ENter elemtents");
+    printf("Enter elemtents - ");
     for (i=0;i<s;i++){
         scanf("%d", &a[i]);
     }
     s++;
-    printf("ENter elemtent u wanna insert");
+    printf("Enter the elemtent you wish to insert: ");
     scanf("%d", &n);
-    printf("ENter location");
+    printf("Enter the location where the new element is to be inserted: ");
     scanf("%d", &x);
    
     for (i=1;i<=x;i++){
